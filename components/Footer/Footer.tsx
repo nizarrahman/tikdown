@@ -56,7 +56,6 @@ export function Footer() {
             >
               Nizar Rahman
             </Text>
-          </Text>
         </Box>
       </Container>
     </div>
