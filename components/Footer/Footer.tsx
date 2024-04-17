@@ -51,11 +51,26 @@ export function Footer() {
                 event.currentTarget.style.textDecoration = 'none';
               }}
               component="a"
-              href="https://nizardev.xyz"
+              href="https://nizardev"
               color="#e534af"
             >
               Nizar Rahman
             </Text>
+          </Text>
+          <Text
+            style={{ textDecoration: 'none', transition: 'text-decoration 0.3s' }}
+            onMouseEnter={(event) => {
+              event.currentTarget.style.textDecoration = 'underline';
+            }}
+            onMouseLeave={(event) => {
+              event.currentTarget.style.textDecoration = 'none';
+            }}
+            component="a"
+            href="https://github.com/nizarrahman/tikdown"
+            color="#e534af"
+          >
+            Source code
+          </Text>
         </Box>
       </Container>
     </div>
