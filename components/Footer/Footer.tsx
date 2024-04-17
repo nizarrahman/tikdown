@@ -41,7 +41,7 @@ export function Footer() {
       <Container className={classes.inner}>
         <Box>
           <Text>
-            © {new Date().getFullYear()}{' '}
+            © 2020 - {new Date().getFullYear()}{' '}
             <Text
               style={{ textDecoration: 'none', transition: 'text-decoration 0.3s' }}
               onMouseEnter={(event) => {
@@ -51,25 +51,11 @@ export function Footer() {
                 event.currentTarget.style.textDecoration = 'none';
               }}
               component="a"
-              href="https://dev.ryzendesu.vip"
+              href="https://nizardev.xyz"
               color="#e534af"
             >
-              ShirokamiRyzen
+              Nizar Rahman
             </Text>
-          </Text>
-          <Text
-            style={{ textDecoration: 'none', transition: 'text-decoration 0.3s' }}
-            onMouseEnter={(event) => {
-              event.currentTarget.style.textDecoration = 'underline';
-            }}
-            onMouseLeave={(event) => {
-              event.currentTarget.style.textDecoration = 'none';
-            }}
-            component="a"
-            href="https://github.com/ShirokamiRyzen/tikdown"
-            color="#e534af"
-          >
-            Source code
           </Text>
         </Box>
       </Container>
