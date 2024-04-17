@@ -41,7 +41,7 @@ export function Footer() {
       <Container className={classes.inner}>
         <Box>
           <Text>
-            © 2020 - {new Date().getFullYear()}{' '}
+            © {new Date().getFullYear()}{' '}
             <Text
               style={{ textDecoration: 'none', transition: 'text-decoration 0.3s' }}
               onMouseEnter={(event) => {
